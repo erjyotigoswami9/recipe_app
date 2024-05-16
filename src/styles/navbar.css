@@ -1,0 +1,12 @@
+@media all and (max-width:500px) {
+ 
+div{
+    display: flex;
+    flex-direction: column;
+}   
+
+}
+
+a{
+    text-decoration: none;
+}

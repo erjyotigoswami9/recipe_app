@@ -1,0 +1,13 @@
+
+.divParent{
+    
+    width: fit-content;
+    margin: auto;
+    text-align: justify;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    margin-top: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;    
+}

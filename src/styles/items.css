@@ -1,0 +1,46 @@
+
+a{
+    text-decoration: none;
+    color : black;
+}
+
+.div1{
+
+    margin: auto;
+    width: fit-content;
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   text-align: center;
+   padding-right: 50px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 50px;
+}
+
+.div1>div>button{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+
+@media only screen and (max-width : 900px) {
+    .div1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color: "red";
+    }
+}
+@media only screen and (max-width : 600px) {
+    .div1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: "red";
+    }
+}
